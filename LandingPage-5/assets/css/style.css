@@ -1188,10 +1188,12 @@ hr {
 
 .logo .logo-light {
   display: inline-block;
+   width: 100px;
 }
 
 .logo .logo-dark {
   display: none;
+  width: 90px;
 }
 
 .nav-sticky .logo .logo-dark {
@@ -1200,6 +1202,7 @@ hr {
 
 .nav-sticky .logo .logo-light {
   display: none;
+  width: 90px;
 }
 
 .nav-button {
