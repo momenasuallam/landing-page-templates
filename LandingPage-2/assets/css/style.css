@@ -566,7 +566,8 @@ section {
     margin-top: 10px;
 }
 .portfolio-wrap img{
-  width: 200px;
+  width: auto;
+  height: 35px;
 }
 .portfolio .portfolio-item figure:hover img {
   opacity: 0.4;
