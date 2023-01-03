@@ -550,7 +550,14 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: auto;
+    flex-direction: column;
+}
+.portfolio .portfolio-wrap p{
+  margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    max-width: 300px;
 }
 .portfolio .portfolio-wrap::before {
   content: "";
@@ -565,7 +572,8 @@ section {
   opacity: 0;
 }
 .portfolio-wrap img{
-  width: 180px;
+  width: auto;
+  height: 35px;
 }
 .portfolio .portfolio-wrap .portfolio-info {
   opacity: 0;

@@ -1851,7 +1851,7 @@ textarea.form-control {
 }
 
 #gallery a {
-  height: 150px;
+  /* height: 150px; */
   background-color: #e2e2f1c7;
   align-items: center;
   justify-content: center;
@@ -1912,7 +1912,9 @@ textarea.form-control {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 150px;
+  flex-direction: column;
+  height: auto;
+  padding: 14px;
 }
 
 .details,
@@ -1952,8 +1954,18 @@ textarea.form-control {
 }
 
 .inside img {
-  width: 170px;
+  width: 100%;
+    height: 35px;
+    object-fit: contain;
 
+}
+.inside p{
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+  max-width: 300px;
+  color: #000;
+  line-height: normal;
 }
 
 .overlay {

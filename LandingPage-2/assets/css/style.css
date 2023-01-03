@@ -557,6 +557,13 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+.portfolio .portfolio-item figure p{
+  font-size: 14px;
+    max-width: 300px;
+    text-align: center;
+    margin-top: 10px;
 }
 .portfolio-wrap img{
   width: 200px;
