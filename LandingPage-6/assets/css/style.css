@@ -721,6 +721,6 @@ font-size: 14px;
 }
 @media(max-width:768px){
     .gallery-item{
-        width: 45%;
+        width: 100%;
     }
 }
